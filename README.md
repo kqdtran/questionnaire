@@ -16,5 +16,25 @@ sudo apt-get install python-matplotlib
 pip install gspread    
 ```
 
-Numpy and Matplotlib are used for manipulating data and generating plots.     
-GSpread are needed for connecting and retrieving data from the Google Spreadsheet.   
+
+Instructions
+------------
+
+First, start Virtualbox, or do `vagrant up`. Then, execute
+
+```bash
+git clone https://github.com/kqdtran/questionnaire.git    
+cd questionaire    
+ipython notebook --ip=0.0.0.0 --no-browser --pylab=inline
+```
+
+Then, either copy the `stat157.cfg` (if you have one previously) to the current directory, 
+or `cp example.cfg stat157.cfg`, and edit the `stat157.cfg` with your Berkeley username and 
+[bConnected password](https://idc.berkeley.edu/mmk/auth/index).   
+
+
+Questions? Issues?
+------------------
+
+Raise them on the [Stat 157's main repo]
+(https://github.com/stat157/questionnaire/issues?direction=desc&sort=created&state=open)
