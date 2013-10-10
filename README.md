@@ -28,8 +28,8 @@ cd questionaire
 ipython notebook --ip=0.0.0.0 --no-browser --pylab=inline
 ```
 
-Then, either copy the `stat157.cfg` (if you have one previously) to the current directory, 
-or `cp example.cfg stat157.cfg`, and edit the `stat157.cfg` with your Berkeley username and 
+Then, either copy the `stat157.cfg` file (if you have one previously from your group's repo) to the current directory, 
+or `cp example.cfg stat157.cfg`, and edit the `stat157.cfg` file with your Berkeley username and 
 [bConnected password](https://idc.berkeley.edu/mmk/auth/index).   
 
 
